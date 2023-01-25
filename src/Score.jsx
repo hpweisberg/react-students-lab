@@ -8,7 +8,7 @@ const Score = ({scores}) => {
       // <Score score={score} key={score} />
       <ul>
 
-      <li> 
+        <li key={score}> 
           <p>Date: {score.date}</p>
           <p>Score: {score.score}</p>
         </li>

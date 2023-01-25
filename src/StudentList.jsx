@@ -4,7 +4,7 @@ const StudentList = ({studentList}) => {
   return ( (
 
     <div>
-      {studentList.map(student =>
+    {studentList.map(student =>
         <Student student={student} key={student.name} />
         )}
     </div>
